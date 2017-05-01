@@ -3,4 +3,5 @@
 * dfs
 * dijkstra
 * prim
-## give me a star if you think good!
+## Support me
+If my project is helpful to you, please give me a star.
