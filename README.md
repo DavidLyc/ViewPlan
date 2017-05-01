@@ -1,1 +1,5 @@
-## 旅游景点规划
+# 旅游景点规划
+## algorithm
+* dfs
+* dijkstra
+* prim
