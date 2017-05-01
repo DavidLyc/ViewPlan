@@ -3,3 +3,4 @@
 * dfs
 * dijkstra
 * prim
+## give me a star if you think good!
