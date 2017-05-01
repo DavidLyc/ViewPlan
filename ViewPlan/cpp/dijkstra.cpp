@@ -1,5 +1,4 @@
 #include "../head/stdfax.h"
-#define MAXSIZE 1000000
 
 extern Graph graph;
 extern Vex* vexs;

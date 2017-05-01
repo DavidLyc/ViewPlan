@@ -1,6 +1,7 @@
 #ifndef GLOBAL_H
 #define GLOBAL_H
 #include "stdfax.h"
+#define MAXSIZE 1000000
 
 struct Vex
 {
