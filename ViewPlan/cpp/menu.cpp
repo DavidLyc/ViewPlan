@@ -1,4 +1,4 @@
-#include "stdfax.h"
+#include "../head/stdfax.h"
 
 void outputMenu()
 {

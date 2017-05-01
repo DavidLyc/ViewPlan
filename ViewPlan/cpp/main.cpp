@@ -1,4 +1,5 @@
-#include "stdfax.h"
+#include "../head/stdfax.h"
+
 int main()
 {
 	initGraph();

@@ -1,4 +1,4 @@
-#include "stdfax.h"
+#include "../head/stdfax.h"
 
 extern Graph graph;
 extern Vex* vexs;

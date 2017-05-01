@@ -15,53 +15,53 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="global.h">
+    <ClInclude Include="head\dijkstra.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="menu.h">
+    <ClInclude Include="head\global.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="stdfax.h">
+    <ClInclude Include="head\graph.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="graph.h">
+    <ClInclude Include="head\menu.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="navigate.h">
+    <ClInclude Include="head\navigate.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="dijkstra.h">
+    <ClInclude Include="head\prim.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="prim.h">
+    <ClInclude Include="head\stdfax.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp">
+    <ClCompile Include="cpp\dijkstra.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="menu.cpp">
+    <ClCompile Include="cpp\graph.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="graph.cpp">
+    <ClCompile Include="cpp\main.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="navigate.cpp">
+    <ClCompile Include="cpp\menu.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="dijkstra.cpp">
+    <ClCompile Include="cpp\navigate.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="prim.cpp">
+    <ClCompile Include="cpp\prim.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <Text Include="Vex.txt">
+    <Text Include="txt\Edge.txt">
       <Filter>资源文件</Filter>
     </Text>
-    <Text Include="Edge.txt">
+    <Text Include="txt\Vex.txt">
       <Filter>资源文件</Filter>
     </Text>
   </ItemGroup>

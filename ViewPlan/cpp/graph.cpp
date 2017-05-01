@@ -1,4 +1,4 @@
-#include "stdfax.h"
+#include "../head/stdfax.h"
 
 Graph graph;
 
@@ -27,7 +27,7 @@ Vex* Graph::getVexs()
 
 void initGraph()
 {
-	ifstream file("Vex.txt");
+	ifstream file("txt/Vex.txt");
 	string buffer;
 	Vex vex;
 	getline(file, buffer);
@@ -47,7 +47,7 @@ void initGraph()
 
 void initEdge()
 {
-	ifstream file("Edge.txt");
+	ifstream file("txt/Edge.txt");
 	string buffer;
 	Edge edge;
 	while (!file.eof())

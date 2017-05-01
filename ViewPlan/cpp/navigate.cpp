@@ -1,4 +1,4 @@
-#include "stdfax.h"
+#include "../head/stdfax.h"
 
 extern Graph graph;
 Vex* vexs = graph.getVexs();

@@ -18,6 +18,27 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="head\dijkstra.h" />
+    <ClInclude Include="head\global.h" />
+    <ClInclude Include="head\graph.h" />
+    <ClInclude Include="head\menu.h" />
+    <ClInclude Include="head\navigate.h" />
+    <ClInclude Include="head\prim.h" />
+    <ClInclude Include="head\stdfax.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="cpp\dijkstra.cpp" />
+    <ClCompile Include="cpp\graph.cpp" />
+    <ClCompile Include="cpp\main.cpp" />
+    <ClCompile Include="cpp\menu.cpp" />
+    <ClCompile Include="cpp\navigate.cpp" />
+    <ClCompile Include="cpp\prim.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="txt\Edge.txt" />
+    <Text Include="txt\Vex.txt" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{02D0CC00-D1B9-47DF-8E4E-3164FE5D9ED9}</ProjectGuid>
     <RootNamespace>ViewPlan</RootNamespace>
@@ -109,27 +130,6 @@
       <OptimizeReferences>true</OptimizeReferences>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClInclude Include="dijkstra.h" />
-    <ClInclude Include="global.h" />
-    <ClInclude Include="graph.h" />
-    <ClInclude Include="menu.h" />
-    <ClInclude Include="navigate.h" />
-    <ClInclude Include="prim.h" />
-    <ClInclude Include="stdfax.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="dijkstra.cpp" />
-    <ClCompile Include="graph.cpp" />
-    <ClCompile Include="main.cpp" />
-    <ClCompile Include="menu.cpp" />
-    <ClCompile Include="navigate.cpp" />
-    <ClCompile Include="prim.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <Text Include="Edge.txt" />
-    <Text Include="Vex.txt" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

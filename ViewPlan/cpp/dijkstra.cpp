@@ -1,4 +1,4 @@
-#include "stdfax.h"
+#include "../head/stdfax.h"
 #define MAXSIZE 1000000
 
 extern Graph graph;
